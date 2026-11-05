@@ -261,6 +261,21 @@
    "nota": ""
   },
   {
+   "id": "colorful-gtx-1660-ti",
+   "marca": "COLORFUL",
+   "modelo": "GTX 1660 Ti",
+   "memoria": "6 GB",
+   "uso": "1080p",
+   "precio": 260000,
+   "foto": "img/colorful-gtx-1660-ti.webp",
+   "categoria": "gpu",
+   "estado": "disponible",
+   "destacada": false,
+   "oferta": false,
+   "precioAnterior": 0,
+   "nota": ""
+  },
+  {
    "id": "asus-rog-rtx-2060-rog-strix",
    "marca": "ASUS ROG",
    "modelo": "RTX 2060 ROG Strix",
@@ -404,6 +419,21 @@
    "uso": "1440p",
    "precio": 530000,
    "foto": "img/powercolor-rx-6700-xt-hellhound-en-caja.webp",
+   "estado": "disponible",
+   "destacada": false,
+   "oferta": false,
+   "precioAnterior": 0,
+   "nota": ""
+  },
+  {
+   "id": "asrock-rx-6700-xt-dual",
+   "marca": "ASROCK",
+   "modelo": "RX 6700 XT Dual",
+   "memoria": "12 GB",
+   "uso": "1440p",
+   "precio": 520000,
+   "foto": "img/asrock-rx-6700-xt-dual.webp",
+   "categoria": "gpu",
    "estado": "disponible",
    "destacada": false,
    "oferta": false,
