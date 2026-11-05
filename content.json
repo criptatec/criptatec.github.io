@@ -612,12 +612,12 @@
    "categoria": "gpu",
    "memoria": "12 GB",
    "uso": "1080p",
-   "precio": 480000,
+   "precio": 500000,
    "foto": "img/rtx3060ventus.webp",
    "estado": "disponible",
    "destacada": true,
-   "oferta": true,
-   "precioAnterior": 500000,
+   "oferta": false,
+   "precioAnterior": 0,
    "nota": ""
   },
   {
