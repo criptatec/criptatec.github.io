@@ -321,21 +321,6 @@
    "nota": ""
   },
   {
-   "id": "msi-rx-5700-xt-mech",
-   "marca": "MSI",
-   "modelo": "RX 5700 XT Mech",
-   "categoria": "gpu",
-   "memoria": "8 GB",
-   "uso": "1440p",
-   "precio": 350000,
-   "foto": "img/rx5700xt.webp",
-   "estado": "disponible",
-   "destacada": false,
-   "oferta": false,
-   "precioAnterior": 0,
-   "nota": ""
-  },
-  {
    "id": "palit-rtx-3070-gamingpro-sin-caja-sin-rgb",
    "marca": "PALIT",
    "modelo": "RTX 3070 GamingPro (sin caja, sin RGB)",
@@ -591,21 +576,6 @@
    "nota": ""
   },
   {
-   "id": "msi-rx-5700-mech-oc",
-   "marca": "MSI",
-   "modelo": "RX 5700 Mech OC",
-   "categoria": "gpu",
-   "memoria": "8 GB",
-   "uso": "1440p",
-   "precio": 330000,
-   "foto": "img/rx5700mech.webp",
-   "estado": "disponible",
-   "destacada": false,
-   "oferta": false,
-   "precioAnterior": 0,
-   "nota": ""
-  },
-  {
    "id": "msi-rtx-3060-ventus-2x-oc",
    "marca": "MSI",
    "modelo": "RTX 3060 Ventus 2X OC",
@@ -644,7 +614,7 @@
    "uso": "4K",
    "precio": 1100000,
    "foto": "img/manli-rtx-3090-sin-caja.webp",
-   "estado": "disponible",
+   "estado": "vendida",
    "destacada": false,
    "oferta": false,
    "precioAnterior": 0,
@@ -659,7 +629,7 @@
    "uso": "4K",
    "precio": 1400000,
    "foto": "img/rtx3090tuf.webp",
-   "estado": "disponible",
+   "estado": "vendida",
    "destacada": true,
    "oferta": false,
    "precioAnterior": 0,
