@@ -171,21 +171,6 @@
       "nota": ""
     },
     {
-      "id": "msi-gtx-1050-ti-dual",
-      "marca": "MSI",
-      "modelo": "GTX 1050 Ti Dual",
-      "categoria": "gpu",
-      "memoria": "4 GB",
-      "uso": "1080p",
-      "precio": 120000,
-      "foto": "img/msi-gtx-1050-ti-dual.webp",
-      "estado": "disponible",
-      "destacada": false,
-      "oferta": false,
-      "precioAnterior": 0,
-      "nota": ""
-    },
-    {
       "id": "manli-rtx-3090",
       "marca": "MANLI",
       "modelo": "RTX 3090",
