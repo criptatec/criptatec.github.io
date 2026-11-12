@@ -48,7 +48,7 @@ function categoria(marca, modelo, mem){
   var t = (marca + ' ' + modelo).toLowerCase();
   if (/\bpc\b/.test(t)) return 'pc';
   if (/xbox|playstation|\bps[345]\b|nintendo|consola/.test(t)) return 'consola';
-  if (/iphone|samsung|xiaomi|motorola|celular/.test(t)) return 'celular';
+  if (/iphone|samsung|xiaomi|motorola|celular|tablet|ipad/.test(t)) return 'celular';
   if (/fuente|\bpsu\b/.test(t)) return 'fuente';
   if (/ddr/i.test(mem) || /memoria|ram\b/i.test(modelo)) return 'ram';
   return 'gpu';
@@ -171,6 +171,7 @@ var FICHAS = [
   [/rtx\s*3060/i,      { arq:'NVIDIA Ampere', mem:'GDDR6 · 192-bit', tdp:170, psu:550, tec:'Ray tracing · DLSS' }],
   [/3070\s*ti/i,       { arq:'NVIDIA Ampere', mem:'GDDR6X · 256-bit', tdp:290, psu:750, tec:'Ray tracing · DLSS' }],
   [/rtx\s*3070/i,      { arq:'NVIDIA Ampere', mem:'GDDR6 · 256-bit', tdp:220, psu:650, tec:'Ray tracing · DLSS' }],
+  [/3080\s*ti/i,       { arq:'NVIDIA Ampere', mem:'GDDR6X · 384-bit', tdp:350, psu:750, tec:'Ray tracing · DLSS' }],
   [/rtx\s*3080/i,      { arq:'NVIDIA Ampere', mem:'GDDR6X · 320-bit', tdp:320, psu:750, tec:'Ray tracing · DLSS' }],
   [/rtx\s*3090/i,      { arq:'NVIDIA Ampere', mem:'GDDR6X · 384-bit', tdp:350, psu:750, tec:'Ray tracing · DLSS · NVLink' }],
   [/rtx\s*5060/i,      { arq:'NVIDIA Blackwell', mem:'GDDR7 · 128-bit', tdp:145, psu:550, tec:'Ray tracing · DLSS 4' }],
@@ -212,7 +213,7 @@ var CATS = [
   ['ram','Memorias RAM','<svg class="cat-ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="4" y="15" width="40" height="16" rx="2"/><path d="M10 20h5v6h-5zM21 20h5v6h-5zM32 20h5v6h-5zM4 31v4h40v-4M23 35v-4"/></svg>'],
   ['pc','PCs armadas','<svg class="cat-ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="12" y="4" width="24" height="40" rx="3"/><circle cx="24" cy="16" r="5"/><circle cx="24" cy="30" r="5"/><path d="M17 39h14"/></svg>'],
   ['fuente','Fuentes','<svg class="cat-ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="5" y="10" width="38" height="28" rx="3"/><circle cx="20" cy="24" r="8"/><path d="m35 17-3 6h4l-3 6"/></svg>'],
-  ['celular','Celulares','<svg class="cat-ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="14" y="4" width="20" height="40" rx="4"/><path d="M21 9h6"/><circle cx="24" cy="38" r="1.6" fill="currentColor"/></svg>'],
+  ['celular','Celulares y tablets','<svg class="cat-ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="14" y="4" width="20" height="40" rx="4"/><path d="M21 9h6"/><circle cx="24" cy="38" r="1.6" fill="currentColor"/></svg>'],
   ['consola','Consolas','<svg class="cat-ic" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 14h20a9 9 0 0 1 9 9l1 7a5 5 0 0 1-9 3l-3-4H16l-3 4a5 5 0 0 1-9-3l1-7a9 9 0 0 1 9-9Z"/><path d="M14 20v6M11 23h6"/><circle cx="32" cy="21" r="1.5" fill="currentColor"/><circle cx="35" cy="25" r="1.5" fill="currentColor"/></svg>']
 ];
 var estado = { cat:'todo', q:'', orden:'asc', res:'' };
