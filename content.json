@@ -141,6 +141,21 @@
   ],
   "productos": [
     {
+      "id": "sapphire-pulse-rx-580-8gb",
+      "marca": "SAPPHIRE",
+      "modelo": "Pulse RX 580 8GB",
+      "categoria": "gpu",
+      "memoria": "8 GB",
+      "uso": "1080p",
+      "precio": 220000,
+      "foto": "img/sapphire-rx-580-8gb.webp",
+      "estado": "disponible",
+      "destacada": false,
+      "oferta": false,
+      "precioAnterior": 0,
+      "nota": ""
+    },
+    {
       "id": "gigabyte-rtx-3080-ti-eagle",
       "marca": "GIGABYTE",
       "modelo": "RTX 3080 Ti Eagle",
