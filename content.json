@@ -704,8 +704,8 @@
       "uso": "1080p",
       "precio": 500000,
       "foto": "img/rtx3060ventus.webp",
-      "estado": "disponible",
-      "destacada": true,
+      "estado": "vendida",
+      "destacada": false,
       "oferta": false,
       "precioAnterior": 0,
       "nota": ""
