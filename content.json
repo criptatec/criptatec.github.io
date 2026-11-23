@@ -141,6 +141,21 @@
   ],
   "productos": [
     {
+      "id": "gigabyte-rtx-3060-8gb-dual-sin-caja",
+      "marca": "GIGABYTE",
+      "modelo": "RTX 3060 8GB Dual (sin caja)",
+      "categoria": "gpu",
+      "memoria": "8 GB",
+      "uso": "1080p",
+      "precio": 480000,
+      "foto": "img/gigabyte-rtx-3060-8gb-dual-sin-caja.webp",
+      "estado": "disponible",
+      "destacada": false,
+      "oferta": false,
+      "precioAnterior": 0,
+      "nota": ""
+    },
+    {
       "id": "sapphire-pulse-rx-580-8gb",
       "marca": "SAPPHIRE",
       "modelo": "Pulse RX 580 8GB",
