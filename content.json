@@ -141,6 +141,36 @@
   ],
   "productos": [
     {
+      "id": "google-pixel-9-pro-xl-128gb",
+      "marca": "GOOGLE",
+      "modelo": "Pixel 9 Pro XL 128GB negro (en caja)",
+      "categoria": "celular",
+      "memoria": "128 GB · 16 GB RAM",
+      "uso": "Acepta permutas",
+      "precio": 950000,
+      "foto": "img/google-pixel-9-pro-xl-128gb.webp",
+      "estado": "disponible",
+      "destacada": false,
+      "oferta": false,
+      "precioAnterior": 0,
+      "nota": "Color negro, 128 GB, en su caja. Tiene detalles estéticos (ver fotos). Recibimos permutas."
+    },
+    {
+      "id": "msi-rx-5700-xt-gaming-x-en-caja",
+      "marca": "MSI",
+      "modelo": "RX 5700 XT Gaming X (en caja)",
+      "categoria": "gpu",
+      "memoria": "8 GB",
+      "uso": "1440p",
+      "precio": 370000,
+      "foto": "img/msi-rx-5700-xt-gaming-x-en-caja.webp",
+      "estado": "disponible",
+      "destacada": false,
+      "oferta": false,
+      "precioAnterior": 0,
+      "nota": "Full box: con su caja original."
+    },
+    {
       "id": "gigabyte-rtx-3060-8gb-dual-sin-caja",
       "marca": "GIGABYTE",
       "modelo": "RTX 3060 8GB Dual (sin caja)",
